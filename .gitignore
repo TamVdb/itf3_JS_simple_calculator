@@ -3,6 +3,7 @@
 
 # VS CODE
 .vscode/*
+*.code-workspace
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
