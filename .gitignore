@@ -12,3 +12,7 @@
 
 # GitHub images
 images/git/
+
+# Photoshop & Illustrator
+.psd
+.ai
