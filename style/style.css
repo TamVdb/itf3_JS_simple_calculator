@@ -1,0 +1,111 @@
+/* Titles */
+@font-face {
+   font-family: "Lobster";
+   src: url("../fonts/Lobster/Lobster-Regular.ttf");
+}
+
+/* Text */
+@font-face {
+   font-family: "Montserrat";
+   src: url("../fonts/Montserrat/Montserrat-VariableFont_wght.ttf");
+}
+
+h1 {
+   font-family: "Lobster";
+   font-size: 4rem;
+}
+
+body {
+   width: 100vw;
+}
+
+main {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.calculator {
+   background-color: rgba(18, 44, 52, 1);
+   border-radius: 1.5rem;
+   padding: 3rem 2rem;
+   display: flex;
+   flex-direction: column;
+   margin-top: 50px;
+   width: 400px;
+}
+
+.numbers {
+   display: flex;
+   justify-content: space-between;
+   gap: 3rem;
+}
+input {
+   border-radius: 5px;
+   border: none;
+   padding: 1rem;
+   width: calc(50% - 3rem);
+   text-align: center;
+   font-size: 1.8rem !important;
+   font-weight: bold !important;
+   font-family: "Montserrat" !important;
+}
+
+.operators {
+   margin: 35px auto;
+   display: flex;
+   gap: 15px;
+   justify-content: center;
+}
+
+.operators button {
+   background-color: white;
+   width: 40px;
+   height: 40px;
+   border: 1px solid whitesmoke;
+   border-radius: 3px;
+   font-size: 1.4rem;
+   cursor: pointer;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 1.5rem !important;
+   font-weight: 500 !important;
+   font-family: "Montserrat" !important;
+}
+
+#plus {
+   background-color: #00b295;
+   color: whitesmoke;
+}
+
+#minus {
+   background-color: #ab2346;
+   color: whitesmoke;
+}
+
+#times {
+   background-color: #f39237;
+   color: whitesmoke;
+}
+
+#divide {
+   background-color: #462255;
+   color: whitesmoke;
+}
+
+#modulo {
+   background-color: #39a9db;
+   color: whitesmoke;
+}
+
+.resultat {
+   display: flex;
+   justify-content: center;
+   height: 100px;
+   background-color: aliceblue;
+   border-radius: 5px;
+   text-align: center;
+   font-size: 1.8rem !important;
+   font-weight: bold !important;
+   font-family: "Montserrat" !important;
+}
